@@ -1,0 +1,25 @@
+body {
+    font-size: 12px;
+}
+h1 span {
+    color: #feca07;
+}
+h3 {
+    font-weight: bold;
+}
+aside {
+    background-color: #feca07;
+}
+aside h3 {
+    background-color: #404040;
+    color : #feca07;
+    text-align: center;
+}
+hr {
+    background-color: #feca07;
+    height: 0.2em;
+    margin-top: 0;
+}
+.work {
+    font-size: 2em;
+}
