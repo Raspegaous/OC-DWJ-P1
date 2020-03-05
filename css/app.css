@@ -32,10 +32,16 @@ p {
 a {
     color: inherit;
 }
+ul:first-child {
+    list-style: circle;
+}
 .work {
     font-size: 2em;
 }
 .little {
     width: 3em;
     line-height: 0;
+}
+article i {
+    font-size: 0.8em;
 }
