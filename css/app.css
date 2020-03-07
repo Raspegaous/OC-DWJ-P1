@@ -7,8 +7,16 @@ body {
     line-height: 1.2;
     font-family: 'Open Sans', sans-serif;
 }
-h1 span {
-    color: var(--yellow);
+hr {
+    background-color: var(--yellow);
+    height: 0.2em;
+    margin-top: 0;
+}
+p {
+    text-align: justify;
+}
+a {
+    color: inherit;
 }
 h3 {
     font-weight: bold;
@@ -21,19 +29,12 @@ aside h3 {
     color : var(--yellow);
     text-align: center;
 }
-hr {
-    background-color: var(--yellow);
-    height: 0.2em;
-    margin-top: 0;
+article i {
+    font-size: 0.8em;
+    padding-right: 1em;
 }
-p {
-    text-align: justify;
-}
-a {
-    color: inherit;
-}
-ul:first-child {
-    list-style: circle;
+.color {
+    color: var(--yellow);
 }
 .work {
     font-size: 2em;
@@ -42,7 +43,10 @@ ul:first-child {
     width: 3em;
     line-height: 0;
 }
-article i {
-    font-size: 0.8em;
-    padding-right: 1em;
+.hobbies {
+    font-size: 3em;
+    border: solid 1px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 8px;
 }
