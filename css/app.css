@@ -30,9 +30,27 @@ aside h3 {
     text-align: center;
 }
 article i {
-    font-size: 0.8em;
+    font-size: 1.2em;
     padding-right: 1em;
 }
+ul {
+    list-style: none;
+}
+ul i{
+    font-size: 0.5em;
+    color: var(--yellow);
+}
+ul li:first-child i{
+    font-size: 0.4em;
+    border: solid 1px var(--yellow);
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 0.7em;
+}
+.fa-border{
+    border-radius: 50%!important;
+}
+
 .color {
     color: var(--yellow);
 }
