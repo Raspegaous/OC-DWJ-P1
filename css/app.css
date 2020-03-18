@@ -1,5 +1,5 @@
 :root {
-    --yellow: #feca07;
+    --yellow: rgba(34, 115, 254, 0.65);
     --grey: #404040;
 }
 body {
@@ -56,6 +56,9 @@ ul li:first-child i{
 }
 .work {
     font-size: 2em;
+}
+.work span {
+    border-bottom: solid 2px var(--yellow);
 }
 .little {
     width: 3em;
