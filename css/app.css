@@ -3,27 +3,20 @@
     --grey: #404040;
 }
 body {
+    color: var(--grey);
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 1.2;
-    font-family: 'Open Sans', sans-serif;
 }
 hr {
     background-color: var(--yellow);
     height: 0.2em;
     margin-top: 0;
 }
-p {
-    text-align: justify;
-}
-a {
-    color: inherit;
-}
-h3 {
-    font-weight: bold;
-}
-aside {
-    background-color: var(--yellow);
-}
+p { text-align: justify; }
+a { color: inherit; }
+h3 { font-weight: bold; }
+aside { background-color: var(--yellow); }
 aside h3 {
     background-color: var(--grey);
     color : var(--yellow);
@@ -33,42 +26,27 @@ article i {
     font-size: 1.2em;
     padding-right: 1em;
 }
-ul {
-    list-style: none;
-}
-ul i{
+ul { list-style: none; }
+ul i {
+    color: var(--yellow);
     font-size: 0.5em;
-    color: var(--yellow);
 }
-ul li:first-child i{
-    font-size: 0.4em;
-    border: solid 1px var(--yellow);
-    border-radius: 50%;
-    padding: 2px;
-    margin-right: 0.7em;
+address i {
+    color: var(--grey);
+    margin-right: 0.8em;
 }
-.fa-border{
-    border-radius: 50%!important;
-}
-
-.color {
-    color: var(--yellow);
-}
-.work {
-    font-size: 2em;
-}
-.work span {
-    border-bottom: solid 2px var(--yellow);
-}
+.fa-border { border-radius: 50%!important; }
+.color { color: var(--yellow); }
+.work { font-size: 2em; }
+.work span { border-bottom: solid 2px var(--yellow); }
 .little {
-    width: 3em;
     line-height: 0;
+    width: 3em;
 }
 .hobbies {
-    font-size: 3em;
     border: solid 1px;
     border-radius: 50%;
+    font-size: 3em;
     margin: 10px;
     padding: 8px;
-    color: var(--grey);
 }
