@@ -5,8 +5,10 @@
 body {
     color: var(--grey);
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.2;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }
 hr {
     background-color: var(--yellow);
@@ -35,18 +37,11 @@ address i {
     color: var(--grey);
     margin-right: 0.8em;
 }
-.fa-border { border-radius: 50%!important; }
 .color { color: var(--yellow); }
 .work { font-size: 2em; }
 .work span { border-bottom: solid 2px var(--yellow); }
-.little {
-    line-height: 0;
-    width: 3em;
-}
 .hobbies {
-    border: solid 1px;
+    border: solid 1px var(--grey);
     border-radius: 50%;
-    font-size: 3em;
-    margin: 10px;
-    padding: 8px;
+    padding: 1rem;
 }
