@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Curriculum Vitae personnel de Jérémy Bonnet - En pleine formation de Développeur Web, voici mon le résultat de mon premier projet. Réalisation uniquement en HTML5 et CSS3">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -19,21 +19,21 @@
     <!-- FontAweSome-->
     <script src="https://kit.fontawesome.com/462f7003cc.js" crossorigin="anonymous" defer></script>
     <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js" defer></script>
     <![endif]-->
     <title>Curriculum Vitae - Jérémy BONNET</title>
 </head>
 <body>
-<main class="container d-sm-flex flex-column">
+<main class="container-md d-flex flex-column">
     <!-- Header-->
-    <header class="d-sm-flex flex-row">
+    <header class="d-flex flex-column flex-md-row">
         <!-- Picture -->
-        <aside class="d-sm-flex align-items-center justify-content-center col-sm-4 p-3 text-center">
+        <aside class="d-flex align-items-center justify-content-center col-md-4 p-3">
             <img src="./img/jeremy.jpg" alt="Photo de profil" class="rounded-circle">
         </aside>
         <!-- End Picture -->
         <!-- Title -->
-        <article class="d-sm-flex justify-content-center flex-column col-sm-8 pl-5">
+        <article class="d-flex justify-content-center flex-column col-md-8 text-center text-md-left">
             <h2><span class="color">JEREMY</span> BONNET</h2>
             <h1 class="work"><span>Dévelo</span>ppeur Web Junior</h1>
         </article>
@@ -41,10 +41,10 @@
     </header>
     <!-- End Header -->
     <!-- Content -->
-    <section class="d-sm-flex flex-row">
+    <div class="d-flex flex-column flex-md-row">
         <!-- Left Content -->
-        <aside class="col-sm-4 p-0">
-            <div class="mt-4">
+        <aside class="col-md-4 p-0">
+            <article class="mt-4">
                 <h3>CONTACT</h3>
                 <address class="ml-4">
                     <p>
@@ -64,39 +64,39 @@
                         <a href="https://www.linkedin.com/in/jérémy-bonnet-10bb501a3" target="_blank">Jérémy Bonnet</a>
                     </p>
                 </address>
-            </div>
-            <div class="mt-4 pb-4">
-                <h3 class="">A PROPOS DE MOI</h3>
-                <p class="m-4 text-justify">Autonome, dynamique et persévérant, agé de 32 ans, je suis également père d'une petite fille de 4 ans. Actuellement en contrat comme agent de sécurité incendie au sein de la plus grande société de Monaco, je souhaite me réorienter professionnellement en tant que développeur Web. Passionné depuis le plus jeune âge par l'informatique en général, j'ai acquis en autodidacte quelques connaissances tel que HTML, CSS, PHP, SQL. Souhaitant approfondir et améliorer ses bases je suie actuellement, en parallèle de mon métier, la formation d'OpenClassRoom de Développeur Web Junior.</p>
-            </div>
+            </article>
+            <article class="mt-4 pb-4">
+                <h3>A PROPOS DE MOI</h3>
+                <p class="p-4 text-justify">Autonome, dynamique et persévérant, agé de 32 ans, je suis également père d'une petite fille de 4 ans. Actuellement en contrat comme agent de sécurité incendie au sein de la plus grande société de Monaco, je souhaite me réorienter professionnellement en tant que développeur Web. Passionné depuis le plus jeune âge par l'informatique en général, j'ai acquis en autodidacte quelques connaissances tel que HTML, CSS, PHP, SQL. Souhaitant approfondir et améliorer ses bases je suie actuellement, en parallèle de mon métier, la formation d'OpenClassRoom de Développeur Web Junior.</p>
+            </article>
         </aside>
         <!-- End Left Content-->
         <!-- Content Sections -->
-        <div class="col-sm-8 d-sm-flex flex-column mt-4 pl-4">
+        <div class="col-md-8 d-flex flex-column">
             <!-- First Section -->
-            <article class="ml-4">
+            <article>
                 <h3><i class="color fas fa-graduation-cap"></i>FORMATION</h3>
                 <hr>
-                <ul class="p-0">
-                    <li class="d-sm-flex">
-                        <p class="col-sm-3 p-0">
+                <ul>
+                    <li class="d-md-flex flex-wrap">
+                        <p class="col-md-3">
                             <i class="far fa-dot-circle"></i>
                             2020 <br>
                             <span class="ml-3">Domicile</span>
                         </p>
-                        <div class="col-sm-9">
-                            <h4 class="text-truncate">OPENCLASSROOM</h4>
+                        <div class="col-md-9">
+                            <h4 class="text-wrap">OPENCLASSROOM</h4>
                             <h5>Développeur Web Junior</h5>
                             <p>Formation à distance par OpenClassRoom de développeur Web Junior</p>
                         </div>
                     </li>
-                    <li class="d-sm-flex">
-                        <p class="col-sm-3 p-0">
+                    <li class="d-md-flex">
+                        <p class="col-md-3">
                             <i class="fas fa-circle"></i>
                             2011 <br>
                             <span class="ml-3">Nice</span>
                         </p>
-                        <div class="col-sm-9">
+                        <div class="col-md-9">
                             <h4>SDIS 06</h4>
                             <h5>SSIAP 1</h5>
                             <p>Service de Sécurité Incendie et Secours a Personne de niveau 1. Prévention des risques incendie en ERP et secours à personne. Formation secouriste</p>
@@ -106,41 +106,41 @@
             </article>
             <!-- End First Section -->
             <!-- Second Section -->
-            <article class="mt-5 ml-4">
-                <h3 class="text-truncate"><i class="color fas fa-briefcase"></i>EXPERIENCE PROFESSIONELLE</h3>
+            <article>
+                <h3 class="text-wrap"><i class="color fas fa-briefcase"></i>EXPERIENCE PROFESSIONELLE</h3>
                 <hr>
-                <ul class="p-0">
-                    <li class="d-sm-flex">
-                        <p class="col-sm-3 p-0">
+                <ul>
+                    <li class="d-md-flex flex-wrap">
+                        <p class="col-md-3">
                             <i class="far fa-dot-circle"></i>
                             2012 - Poste actuel <br>
                             <span class="ml-3">Monaco</span>
                         </p>
-                        <div class="col-sm-9">
+                        <div class="col-md-9">
                             <h4>SBM</h4>
                             <h5>Agent de sécurité incendie</h5>
                             <p>Agent SSIAP 1 tournant au sein des différents Casino de Monaco et des palaces (Hôtel de Paris, Hôtel Hermitage). Mission divers au sein de l'opéra Garnier de Monaco, voiturier lors d'événements au sporting de Monaco</p>
                         </div>
                     </li>
-                    <li class="d-sm-flex">
-                            <p class="col-sm-3 p-0">
+                    <li class="d-md-flex">
+                            <p class="col-md-3">
                                 <i class="fas fa-circle"></i>
                                 2008 - 2012 <br>
                                 <span class="ml-3">Monaco</span>
                             </p>
-                        <div class="col-sm-9">
+                        <div class="col-md-9">
                             <h4>ALPHABET</h4>
                             <h5>Responsable magasin</h5>
                             <p>Responsable de magasin, librairie, papeterie, scolaire, périscolaire. Gestion de caisse, du stock, des ventes et de la livraison aux professionnels</p>
                         </div>
                     </li>
-                    <li class="d-sm-flex">
-                        <p class="col-sm-3 p-0">
+                    <li class="d-md-flex">
+                        <p class="col-md-3">
                             <i class="fas fa-circle"></i>
                             2005 - 2008 <br>
                             <span class="ml-3">Menton</span>
                         </p>
-                        <div class="col-sm-9">
+                        <div class="col-md-9">
                             <h4>RESTAURANTS</h4>
                             <h5>Commis</h5>
                             <p>Commis de salle, commis de cuisine, commis de bar dans divers restaurants de Menton et Breil sur Roya</p>
@@ -151,38 +151,38 @@
             <!-- End Second Section-->
         </div>
         <!-- End Content Sections -->
-    </section>
+    </div>
     <!-- End Content -->
     <!-- Footer -->
-    <footer class="d-sm-flex flex-row">
+    <footer class="d-flex flex-column-reverse flex-md-row">
         <!-- Section -->
-        <article class="col-sm-8 pl-5">
-            <h3 class="text-truncate"><i class="color fas fa-pencil-alt"></i>RECOMMANDATIONS</h3>
-            <hr>
-            <div class="d-sm-flex">
-                <div class="col-sm-6">
-                    <h6>ENTREPRISE</h6>
-                    <strong>Directeur, Entreprise</strong>
-                    <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
-                </div>
-                <div class="col-sm-6">
-                    <h6>ENTREPRISE</h6>
-                    <strong>Directeur, Entreprise</strong>
-                    <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
-                </div>
-            </div>
-        </article>
-        <!-- End Section -->
         <!-- Left Footer -->
-        <aside class="col-sm-4 p-0 order-sm-first">
+        <aside class="col-md-4 p-0 pb-2">
             <h3>LOISIRS</h3>
-            <div class="d-sm-flex flex-row justify-content-between text-center">
-                <i class="hobbies fas fa-skiing"></i>
-                <i class="hobbies fas fa-futbol"></i>
-                <i class="hobbies fas fa-biking"></i>
+            <div class="d-flex flex-wrap justify-content-around">
+                <i class="hobbies fas fa-skiing fa-2x"></i>
+                <i class="hobbies fas fa-futbol fa-2x"></i>
+                <i class="hobbies fas fa-biking fa-2x"></i>
             </div>
         </aside>
         <!-- End Left Footer -->
+        <section class="col-md-8 mb-4">
+            <h3 class="text-wrap"><i class="color fas fa-pencil-alt"></i>RECOMMANDATIONS</h3>
+            <hr>
+            <div class="d-flex flex-md-row flex-column">
+                <article class="col-md-6">
+                    <h6>ENTREPRISE</h6>
+                    <strong>Directeur, Entreprise</strong>
+                    <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
+                </article>
+                <article class="col-md-6">
+                    <h6>ENTREPRISE</h6>
+                    <strong>Directeur, Entreprise</strong>
+                    <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
+                </article>
+            </div>
+        </section>
+        <!-- End Section -->
     </footer>
     <!-- End Footer -->
 </main>
