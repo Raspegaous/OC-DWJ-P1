@@ -1,0 +1,47 @@
+:root {
+    --yellow: rgba(34, 115, 254, 0.65);
+    --grey: #404040;
+}
+body {
+    color: var(--grey);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+hr {
+    background-color: var(--yellow);
+    height: 0.2em;
+    margin-top: 0;
+}
+p { text-align: justify; }
+a { color: inherit; }
+h3 { font-weight: bold; }
+aside { background-color: var(--yellow); }
+aside h3 {
+    background-color: var(--grey);
+    color : var(--yellow);
+    text-align: center;
+}
+article i {
+    font-size: 1.2em;
+    padding-right: 1em;
+}
+ul { list-style: none; }
+ul i {
+    color: var(--yellow);
+    font-size: 0.5em;
+}
+address i {
+    color: var(--grey);
+    margin-right: 0.8em;
+}
+.color { color: var(--yellow); }
+.work { font-size: 2em; }
+.work span { border-bottom: solid 2px var(--yellow); }
+.hobbies {
+    border: solid 1px var(--grey);
+    border-radius: 50%;
+    padding: 1rem;
+}
